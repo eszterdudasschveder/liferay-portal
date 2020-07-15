@@ -515,7 +515,7 @@ definition {
 			locator1 = "OAuth2#OAUTH2_TESTER_REQUEST_RESULTS",
 			value1 = "test@liferay.com");
 	}
-
+ 
 	test EditApplicationScopesAndViewLanguageKeys {
 		property liferay.dependency.jars = "com.liferay.oauth2.provider.scope.sample.qa.jar";
 		property osgi.module.configuration.file.names = "com.liferay.oauth2.provider.scope.internal.configuration.ConfigurableScopeMapperConfiguration-default.config";
